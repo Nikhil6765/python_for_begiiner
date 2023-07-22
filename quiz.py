@@ -14,7 +14,7 @@ checkguess(guess1,"polar bear")
 guess2=input("Which is the fastest Land Animal ? ").lower()
 checkguess(guess2,"cheetah")
 
-guess3=input("Which is the Largest Animal ? ")
+guess3=input("Which is the Largest Animal ? ").lower()
 checkguess(guess3,"blue whale")
 
 print("Your Score is : ",score)
