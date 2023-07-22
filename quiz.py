@@ -6,6 +6,8 @@ def checkguess(guess,answer):
         print("Correct Answer")
         score=score+1
 
+    else:
+        print("Wrong Answer")
     
 
 guess1=input("which bear lives in the north ?").lower()
