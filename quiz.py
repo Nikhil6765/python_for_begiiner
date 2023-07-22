@@ -5,10 +5,10 @@ def checkguess(guess,answer):
     if guess == answer:
         print("Correct Answer")
         score=score+1
-
+        
     else:
-        print("Wrong Answer")
-    
+        guess=input("Sorry Wrong Answer, Please try again..")
+
 
 guess1=input("which bear lives in the north ?").lower()
 checkguess(guess1,"polar bear")
