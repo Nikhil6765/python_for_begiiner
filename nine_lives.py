@@ -1,5 +1,4 @@
 import random
-
 lives=9
 words=['pizza','fairy','teeth','shirt','otter','plane']
 
@@ -38,5 +37,5 @@ if guessed_word_correctly: # it means guessd_word_correctlty == True :
 
 else:
     print("you lost! The secret word was "+ secret_word)
-    
+
 
