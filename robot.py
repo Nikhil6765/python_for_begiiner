@@ -39,3 +39,4 @@ rectangle(15,100,'grey')
 
 t.goto(-100,100)
 rectangle(120,150,'red')
+
