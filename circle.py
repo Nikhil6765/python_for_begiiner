@@ -4,14 +4,16 @@ from itertools import cycle
 colors=cycle(['red','orange','yellow','green','blue','purple'])
 
 
-def circle(size):
+def circle(size,angle,shift):
     t.pencolor(next(colors))
     t.circle(size)
-    circle(size+5)
+    t.right(angle)
+    t.forward(shift)
+    circle(size+5,angle+1,shift+1)
 
 
 
 t.bgcolor('black')
-t.speed('fast')
+t.speed('fastest')
 t.pensize(4)
-circle(30)
+circle(30,0,1)
