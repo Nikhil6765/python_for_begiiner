@@ -62,5 +62,13 @@ rectangle(30,30,'grey')
 t.goto(-80,190)
 rectangle(80,60,'orange')
 
+#eyes
+t.goto(-60,175)
+rectangle(40,10,'white')
 
+t.goto(-55,173)
+rectangle(5,5,'black')
+
+t.goto(-30,173)
+rectangle(5,5,'black')
 
