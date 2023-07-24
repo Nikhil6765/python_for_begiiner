@@ -77,3 +77,4 @@ rectangle(5,5,'black')
 t.goto(-55,145)
 rectangle(30,7,'brown')
 
+t.hideturtle()
