@@ -16,8 +16,9 @@ def update_clue(guessed_letter,secret_word,clue):
             clue[index]=guessed_letter
         index+=1   # index=index+1
 
-           
-while lives>0:
+
+
+while lives>0  :
     print(clue)
     print('Lives left : '+heart_symbol*lives)
     guess=input("guess a letter or whole word :")
@@ -32,6 +33,12 @@ while lives>0:
     else:
         print("Incorrect, You loose a life")
         lives-=1    # lives=lives-1
+    
+    if '?' not in clue:
+        guessed_word_correctly = True
+        break
+
+    
 
 if guessed_word_correctly:     # it means guessd_word_correctlty == True :
     print("you Won! The secret word was " + secret_word)
