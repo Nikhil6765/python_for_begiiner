@@ -15,5 +15,5 @@ def circle(size,angle,shift):
 
 t.bgcolor('black')
 t.speed('fastest')
-t.pensize(4)
+t.pensize(10)
 circle(30,0,1)
