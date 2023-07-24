@@ -57,3 +57,10 @@ rectangle(15,25,'grey')
 
 t.goto(-55,130)
 rectangle(30,30,'grey')
+
+#head
+t.goto(-80,190)
+rectangle(80,60,'orange')
+
+
+
