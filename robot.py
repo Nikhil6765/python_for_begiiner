@@ -34,3 +34,8 @@ rectangle(15,100,'grey')
 
 t.goto(-70,-50)
 rectangle(15,100,'grey')
+
+#body
+
+t.goto(-100,100)
+rectangle(120,150,'red')
