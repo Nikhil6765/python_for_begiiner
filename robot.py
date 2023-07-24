@@ -27,3 +27,10 @@ rectangle(50,20,'blue')
 
 
 
+#legs
+
+t.goto(-25,-50)
+rectangle(15,100,'grey')
+
+t.goto(-70,-50)
+rectangle(15,100,'grey')
