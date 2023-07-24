@@ -2,10 +2,11 @@ import turtle as t
 
 from itertools import cycle
 colors=cycle(['red','orange','yellow','green','blue','purple'])
-
+bgcolour=cycle(['black','blue','white'])
 
 def circle(size,angle,shift):
-    t.pencolor(next(colors))
+    t.bgcolor(next(colors))
+    t.pencolor(next(bgcolour))
     t.circle(size)
     t.right(angle)
     t.forward(shift)
@@ -13,7 +14,7 @@ def circle(size,angle,shift):
 
 
 
-t.bgcolor('black')
+#t.bgcolor('black')
 t.speed('fastest')
 t.pensize(10)
 circle(30,0,1)
