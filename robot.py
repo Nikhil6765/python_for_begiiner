@@ -72,3 +72,8 @@ rectangle(5,5,'black')
 t.goto(-30,173)
 rectangle(5,5,'black')
 
+#mouth
+
+t.goto(-55,145)
+rectangle(30,7,'brown')
+
