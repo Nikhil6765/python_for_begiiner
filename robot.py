@@ -14,4 +14,16 @@ def rectangle(horizontal,vertical,color):
     t.end_fill()
     t.penup()
 
-rectangle(40,5,"blue")
+t.penup()
+t.speed('slow')
+t.bgcolor('Dodger blue')
+
+#feet
+
+t.goto(-100,-150)
+rectangle(50,20,'blue')
+t.goto(-30,-150)
+rectangle(50,20,'blue')
+
+
+
