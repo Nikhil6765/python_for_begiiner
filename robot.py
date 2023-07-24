@@ -40,3 +40,11 @@ rectangle(15,100,'grey')
 t.goto(-100,100)
 rectangle(120,150,'red')
 
+#leftarm
+
+t.goto(-160,50)
+rectangle(60,20,'grey')
+t.goto(-160,75)
+rectangle(15,25,'grey') 
+
+
