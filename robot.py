@@ -53,3 +53,7 @@ rectangle(60,20,'grey')
 t.goto(65,75)
 rectangle(15,25,'grey')
 
+#neck
+
+t.goto(-55,130)
+rectangle(30,30,'grey')
