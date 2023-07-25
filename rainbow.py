@@ -39,6 +39,9 @@ def move_turtle(line_length):
     pen_colours=['red','orange','yellow','green','blue','purple']
 
     t.pencolor(random.choice(pen_colours))
+    t.fillcolor(random.choice(pen_colours))
+    t.shapesize(3,3,1)
+    t.stamp()
     if inside_window():
         angle=random.randint(0,180)
         t.right(angle)
