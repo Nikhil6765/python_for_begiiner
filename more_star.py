@@ -1,14 +1,19 @@
 import turtle as t  
 
-size=300
-points=5
-angle=180-(180/points)
+def draw_star(points,size,col,x,y):
+    t.penup()
+    t.goto(x,y)
+    t.pendown()
+    angle=180-(180/points)
+    t.color(col)
+    t.begin_fill()
+    for i in range(points):
+        t.forward(size)
+        t.right(angle)
+    
+    t.end_fill()
 
-t.color('yellow')
-t.begin_fill()
-for i in range(points):
-    t.forward(size)
-    t.right(angle)
 
+t.Screen().bgcolor('dark blue')
 
-t.end_fill()
+draw_star(5,50,'yellow',0,0)
