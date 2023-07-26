@@ -27,9 +27,7 @@ elif day==5:
 else:       
     print("The Day You were born is : ","Sunday")
     
-    
 
-#print("The Day You were born is : ",day)
 
 
 # this is the code to know about on which day you were born
